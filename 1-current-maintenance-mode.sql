@@ -24,6 +24,9 @@ Select
 		WHEN '12' THEN 'Application:  Unstable' 
 		WHEN '13' THEN 'Security Issue' 
 		WHEN '14' THEN 'Loss of network connectivity (Unplanned)' 
+		WHEN '15' THEN 'Jagadish Parajuli'
+		WHEN '16' THEN 'ANITA PARAJULI'
+		WHEN '17' THEN 'NULL'
 	END AS 'Type',
 	vmmh.Comment as Reason,
 	vmmh.UserId as 'User'
