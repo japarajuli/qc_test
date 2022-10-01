@@ -33,6 +33,7 @@ FROM vMaintenanceMode as vmm
 	INNER JOIN vMaintenanceModeHistory as vmmh on vmm.MaintenanceModeRowId = vmmh.MaintenanceModeRowId
 	INNER JOIN vManagedEntityType as vmet on vmet.ManagedEntityTypeRowId = vme.ManagedEntityTypeRowId
 
+
 -- Add your class here
 WHERE vmet.ManagedEntityTypeDefaultName = 'Windows Computer' 
 
